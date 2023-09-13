@@ -10,7 +10,10 @@ const Projects = () => {
       <div className="space-y-20 mt-14">
         {projects.map((item, index) => {
           return (
-            <div className="md:flex justify-center items-center md:space-x-20">
+            <div
+              className="md:flex justify-center items-center md:space-x-20"
+              key={index}
+            >
               <div className="img-wrapper md:w-2/5 overflow-hidden relative border-4 border-gray-500 shadow-md">
                 <img
                   src={item.img}
@@ -37,7 +40,10 @@ const Projects = () => {
                 <div className="grid grid-cols-3 gap-3">
                   {item.techStack.map((item2, index2) => {
                     return (
-                      <div className="bg-white border-2 border-violet-700 p-1 text-sm text-center rounded-md text-violet-700 font-semibold">
+                      <div
+                        className="bg-white border-2 border-violet-700 p-1 text-sm text-center rounded-md text-violet-700 font-semibold"
+                        key={index2}
+                      >
                         {item2}
                       </div>
                     );

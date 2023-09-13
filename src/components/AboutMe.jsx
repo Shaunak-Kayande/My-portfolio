@@ -2,7 +2,6 @@ import React from "react";
 import { Frontend, Backend, Languages } from "../assets/data/Skills.js";
 
 const AboutMe = () => {
-  console.log(Frontend);
   return (
     <div className="w-full md:h-screen pt-24">
       <h1 className="text-3xl md:text-4xl text-center font-semibold underline underline-offset-8 decoration-4 decoration-violet-700">
