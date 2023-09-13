@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import bgtemp from "./assets/img/bg-temp.png";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
