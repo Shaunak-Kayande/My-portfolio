@@ -4,7 +4,7 @@ import { Frontend, Backend, Languages } from "../assets/data/Skills.js";
 const AboutMe = () => {
   console.log(Frontend);
   return (
-    <div className="w-full h-screen mt-16">
+    <div className="w-full h-screen pt-24">
       <h1 className="text-4xl text-center font-semibold underline underline-offset-8 decoration-4 decoration-violet-700">
         About Me
       </h1>

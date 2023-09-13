@@ -1,0 +1,30 @@
+* {
+  font-family: "Roboto";
+}
+
+.img-wrapper > a {
+  background: rgba(255, 255, 255, 0.4);
+  opacity: 0;
+}
+
+.img-wrapper > img,
+.img-wrapper > a {
+  transition: 200ms ease-in-out;
+}
+
+.img-wrapper:hover > a {
+  opacity: 1;
+}
+
+.img-wrapper:hover > img {
+  filter: blur(5px);
+  transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #7e22ce;
+  border-radius: 10px;
+}
