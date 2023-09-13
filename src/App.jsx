@@ -20,7 +20,7 @@ function App() {
         footerRef={footerRef}
       />
       <div ref={homeRef}>
-        <Home aboutMeRef={aboutMeRef} />
+        <Home projectsRef={projectsRef} />
       </div>
       <div ref={aboutMeRef}>
         <AboutMe />
