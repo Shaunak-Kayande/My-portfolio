@@ -1,5 +1,6 @@
 import React from "react";
 import projects from "../assets/data/Projects";
+import { FiLink2 } from "react-icons/fi";
 
 const Projects = () => {
   return (
@@ -22,9 +23,12 @@ const Projects = () => {
                 />
                 <a
                   href={item.link}
-                  className="absolute inset-0 flex justify-center items-center font-bold text-lg "
+                  className="absolute inset-0 flex justify-center items-center font-bold text-lg"
                 >
-                  View Website
+                  <div className="bg-violet-700 flex justify-center items-center text-white px-2 py-1 rounded-md space-x-3 hover:bg-violet-500">
+                    <FiLink2 size={"1.5em"} />
+                    <h1>View Website</h1>
+                  </div>
                 </a>
               </div>
               <div className="md:w-1/4 space-y-5 mt-5 md:mt-0">
